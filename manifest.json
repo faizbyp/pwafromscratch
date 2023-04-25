@@ -1,7 +1,6 @@
 {
   "name": "Piwia",
   "short_name": "Piwia",
-  "start_url": "/?home=true",
   "icons": [
     {
       "src": "icons/manifest-icon-192.maskable.png",
@@ -30,6 +29,8 @@
   ],
   "theme_color": "#abd3a3",
   "background_color": "#ffffff",
-  "display": "fullscreen",
+  "display": "standalone",
+  "scope": "/pwafromscratch",
+  "start_url": "/pwafromscratch",
   "orientation": "portrait"
 }
