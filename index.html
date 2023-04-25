@@ -13,12 +13,14 @@
 <body>
   <img src="logo.png" alt="Piwia Logo" width="240" height="240">
   <h1>Welcome to Piwia</h1>
+  <button>Show Notif</button>
 
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/service-worker.js');
     }
   </script>
+  <script src="notification.js"></script>
   
 </body>
 </html>
